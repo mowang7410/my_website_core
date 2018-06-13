@@ -10,7 +10,7 @@ import com.esoft.archer.user.model.User;
 @RestController
 @SpringBootApplication
 public class Test {
-	
+
 	@RequestMapping(value = "/helloworld")
 	public User helloWorld() {
 		return new User("mowang7410", "张凌捷", "15948786649");
